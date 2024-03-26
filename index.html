@@ -18,22 +18,25 @@
     </div>
 
     <div class="section2">
- <form action="blog.html"> <!--This section creates my fillable form which will make a blog post-->
+ <form id="submit"> <!--This section creates my fillable form which will make a blog post-->
     <h4>Username</h4>
-    <input type="text" id="Username" name="Username"> <!--username field-->
+    <input type="text" id ="user" placeholder="Username" name="username"> <!--username field-->
     <br>
     <h4>Title</h4>
-    <input type="text" id="Enter Title" name="title"> <!--Title field-->
+    <input type="text" id="title" placeholder="Enter Title" name="title"> <!--Title field-->
     <br>
     <h4>Content</h4>
     <div class="Content">
-    <input type="text" id="Enter Content" name="content" class="Content-input"> <!--Content field-->
+    <input type="text" id="content" placeholder="Enter Content" name="content" class="content-input"> <!--Content field-->
     </div>
     <br>
-    <input type="submit" value="submit"> <!--This is my submit button which takes you to the second page of the blog website-->
+    <p id="error"></p>
+    <button type="submit">Submit</button> <!--This is my submit button which takes you to the second page of the blog website-->
  </form>
     </div>
     </div>
-    
+
+    <script type="text/javascript" src="./assets/js/form.js"></script>
+    <script type="text/javascript" src="./assets/js/logic.js"></script>
 </body>
 </html>
