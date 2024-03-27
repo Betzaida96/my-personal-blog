@@ -1,6 +1,49 @@
+:root {
+    --lightpurple: rgb(207, 148, 229);
+    --white: white;
+}
+
 header {
     display: flex;
     justify-content:space-around;
     padding: 1%;
     border-bottom: solid;
+}
+
+a {
+    color: var(--white)
+}
+
+#back {
+    width: 60px;
+    height: 40px;
+    color: var(--white);
+    background-color: var(--lightpurple);
+}
+
+#mode-toggle {
+    height: 40px;
+    width: 60px;
+    background-color: var(--lightpurple);
+    color: var(--white);
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+border-top: solid;
+}
+
+#note {
+   text-align: center;
+}
+
+#portfolio {
+    color: black;
 }
