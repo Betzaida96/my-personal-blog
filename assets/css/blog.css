@@ -1,8 +1,10 @@
+/*sets my root colors of light purple and white */
 :root {
     --lightpurple: rgb(207, 148, 229);
     --white: white;
 }
 
+/*styles the header with a display flex, justifies content, gives it padding and a solid border on the bottom */
 header {
     display: flex;
     justify-content:space-around;
@@ -10,24 +12,26 @@ header {
     border-bottom: solid;
 }
 
+/*this makes my link text white in the back button */
 a {
     color: var(--white)
 }
 
+/*this styles the height and width for my back button and colors it light purple */
 #back {
     width: 60px;
     height: 40px;
-    color: var(--white);
     background-color: var(--lightpurple);
 }
 
+/*this styles my mode-toggle button for the light and dark mode making it purple and setting the height and width  */
 #mode-toggle {
     height: 40px;
     width: 60px;
     background-color: var(--lightpurple);
-    color: var(--white);
 }
 
+/*this styles the card making it have a space between each card that is posted and gives the card a border so you can clearly see which post is which */
 .card {
     border: 2px solid black;
     border-radius: 5px;
@@ -36,14 +40,17 @@ a {
     margin-bottom: 5px;
 }
 
+/*this gives the footer a solid top border */
 footer {
 border-top: solid;
 }
 
+/*this aligns the text to the center of the authors note */
 #note {
    text-align: center;
 }
 
+/*this colors the link to my porfolio light purple */
 #portfolio {
-    color: black;
+    color: var(--lightpurple);
 }
