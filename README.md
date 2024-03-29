@@ -12,4 +12,8 @@ I would like to give credit to my tutor Meg Meyers who helped me set up the blog
 
 Here are some pictures of the deployed website.
 
+![My Blog](https://github.com/Betzaida96/my-personal-blog/assets/156623909/7c77d6ba-502c-429b-a7bd-367c1a0fe65c)
+
+![Blog Posts](https://github.com/Betzaida96/my-personal-blog/assets/156623909/35328188-0de7-457b-9c36-10d92a4a7fe8)
+
 Here is a link to the website: 
