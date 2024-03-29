@@ -16,4 +16,4 @@ Here are some pictures of the deployed website.
 
 ![Blog Posts](https://github.com/Betzaida96/my-personal-blog/assets/156623909/35328188-0de7-457b-9c36-10d92a4a7fe8)
 
-Here is a link to the website: 
+Here is a link to the website: https://betzaida96.github.io/my-personal-blog/
