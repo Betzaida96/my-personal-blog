@@ -9,3 +9,17 @@ body.dark-mode {
     background-color: #000000;
     color: #ffffff;
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .content {
+      padding: 10px;
+    }
+  }
+
+  /* Media query for even smaller screens */
+  @media only screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+}
