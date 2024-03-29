@@ -12,15 +12,17 @@ if(!userName||!title||!content){ //this makes an error pop up and disappear with
     }, 4000);
     return
 }
+
 const data={userName:userName, title:title, content:content} //this handles the local storage of username, title, and content
 handleLocalStorage(data)
 
 location.href="blog.html"
 
+}
 function handleLocalStorage(data) { //this retrieves the current blogs from the local storage, if there are none it initializes an empty array
     const blogs = JSON.parse(localStorage.getItem("blogs"))||[]
     blogs.push(data)
     localStorage.setItem("blogs", JSON.stringify(blogs))
 }
+
 document.querySelector('#submit').addEventListener('submit', handleSubmit)
-}
